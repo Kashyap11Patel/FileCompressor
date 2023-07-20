@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Compressor</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="heading"> Hey Budy, If you wanna compress your file you're in the right place</h1>
+    <div class="section">
+        <div class="first_section">
+            <h2>Step 1: Upload your file</h2>
+            <div id="step1">
+                <form method="post" enctype="multipart/form-data" class="form" id="fileform">
+                    <input type="file" id="uploadFile" class="input">
+                    <input type="button" id="submitbtn" class="input" value="submit">
+                </form>
+                <span id="text1">(.txt file only)</span>
+            </div>
+        </div>
+        <div class="second_section">
+            <h2>Step 2 : select &nbspAction</h2>
+            <div id="step2">
+                <button type="button" id="encode" class="button">Compress</button>
+                &nbsp or &nbsp
+                <button type="button" id="decode" class="button">Decompress</button>
+            </div>
+        </div>
+        <div class="third_section">
+            <h2>Step 3 : Relax</h2>
+            <div id="step3">
+                <span id="text4">
+                    <button type="button" onclick="location.reload()">Click Here</button> to start Again
+                </span>
+            </div>
+        </div>
+    </div>
+    <pre id="fileContent"></pre>
+</body>
+</html>
