@@ -1,8 +1,4 @@
-/* 
-	Author : Samyak Jain
-	Created on : 30 June 2020
-*/
-// export { MinHeap }
+
 class MinHeap {
     constructor() {
         this.heap_array = [];
